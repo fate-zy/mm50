@@ -1,7 +1,7 @@
 //导包
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import login from '../views/login'
+import login from '../views/login/index'
 
 // 路由跳转出错处理
 const originalPush = VueRouter.prototype.push
