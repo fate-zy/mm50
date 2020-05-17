@@ -11,6 +11,7 @@ import '@/styles/base.less'
 
 
 //导入外部路由js文件
+//element.js 不用挂载 所以不要写from
 import '@/plugins/element.js'
 import router from './router/index.js'
 
