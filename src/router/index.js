@@ -2,6 +2,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import login from '../views/login/index'
+import layout from '../views/layout/index'
 
 // 路由跳转出错处理
 const originalPush = VueRouter.prototype.push
@@ -18,6 +19,10 @@ routes:[
     {
         path:"/login",
         component:login
+    },
+    {
+        path:"/layout",
+        component:layout
     },
     //路由重定向
     {
